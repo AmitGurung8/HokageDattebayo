@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" styleClass="theme" stylesheets="@styles1.css" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.hokagedattebayo.Controllers.NarutoCharacterFinderController">
+   <children>
+      <VBox alignment="BOTTOM_CENTER" prefHeight="78.0" prefWidth="702.0" VBox.vgrow="NEVER">
+         <children>
+            <Label prefHeight="79.0" prefWidth="333.0" styleClass="Themetitle" stylesheets="@styles1.css" text="HOKAGE DATTEBAYO" textFill="#d9cfce" VBox.vgrow="NEVER">
+               <font>
+                  <Font name="Arial" size="27.0" />
+               </font>
+               <VBox.margin>
+                  <Insets />
+               </VBox.margin>
+            </Label>
+            <ImageView fitHeight="93.0" fitWidth="146.0" pickOnBounds="true" preserveRatio="true" VBox.vgrow="NEVER">
+               <VBox.margin>
+                  <Insets right="20.0" top="10.0" />
+               </VBox.margin>
+               <image>
+                  <Image url="@Img/Theme.gif" />
+               </image>
+            </ImageView>
+         </children>
+      </VBox>
+      <VBox alignment="CENTER" prefHeight="54.0" prefWidth="702.0" VBox.vgrow="NEVER">
+         <children>
+            <HBox prefHeight="46.0" prefWidth="702.0" VBox.vgrow="NEVER">
+               <children>
+                  <TextField fx:id="SearchBar" alignment="TOP_LEFT" onAction="#CharacterSearch" prefHeight="26.0" prefWidth="293.0" styleClass="searchbar" stylesheets="@styles1.css">
+                     <HBox.margin>
+                        <Insets bottom="10.0" left="140.0" right="10.0" top="10.0" />
+                     </HBox.margin>
+                  </TextField>
+                  <Button fx:id="SearchButton" mnemonicParsing="false" onAction="#SearchButtonAction" prefHeight="28.0" prefWidth="97.0" styleClass="Button1" stylesheets="@styles1.css" text="Search" textFill="#05102b">
+                     <HBox.margin>
+                        <Insets left="40.0" top="5.0" />
+                     </HBox.margin>
+                     <font>
+                        <Font name="System Bold Italic" size="14.0" />
+                     </font>
+                  </Button>
+               </children>
+            </HBox>
+         </children>
+      </VBox>
+
+      <VBox alignment="BOTTOM_LEFT" prefHeight="226.0" prefWidth="702.0" VBox.vgrow="ALWAYS">
+         <children>
+            <TableView fx:id="CharacterTable" prefHeight="226.0" prefWidth="695.0" styleClass="table1" stylesheets="@styles1.css" VBox.vgrow="ALWAYS">
+              <columns>
+                <TableColumn fx:id="Name" prefWidth="348.7999999523163" text="Name" />
+                  <TableColumn fx:id="Jutsu" minWidth="2.4000244140625" prefWidth="354.4000244140625" text="Jutsu" />
+              </columns>
+            </TableView>
+         </children></VBox>
+      <VBox>
+         <children>
+            <Label alignment="CENTER" contentDisplay="CENTER" text="Please Click One Of the Names" textAlignment="RIGHT">
+               <font>
+                  <Font size="29.0" />
+               </font>
+               <VBox.margin>
+                  <Insets />
+               </VBox.margin>
+            </Label>
+            <Label text="Mabe By AMIT GURUNG - Advanced Java" />
+         </children>
+      </VBox>
+   </children>
+</VBox>

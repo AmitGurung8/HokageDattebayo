@@ -1,0 +1,35 @@
+.TitleDetails {
+    -fx-text-fill: #ff4500; /* Bright Naruto orange for the text */
+    -fx-font-family: "Chalkboard", "Comic Sans MS", "Arial", sans-serif; /* Suitable Naruto-themed fonts */
+    -fx-font-size: 24px; /* Moderate size for details title */
+    -fx-font-weight: bold; /* Bold text for emphasis */
+    -fx-alignment: center; /* Center-align the text */
+    -fx-background-color: linear-gradient(to right, #fff4e6, #ffe5cc, #ffd1b3); /* Light pastel Naruto gradient */
+    -fx-background-radius: 10; /* Rounded background for a smooth look */
+    -fx-padding: 10 20 10 20; /* Padding around the text */
+    -fx-border-color: #ffae42; /* Subtle orange border */
+    -fx-border-width: 2;
+    -fx-border-radius: 10;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.3), 8, 0.4, 2, 2); /* Soft shadow for depth */
+}
+
+.gridpane {
+    -fx-background-color: linear-gradient(to bottom right, #fff4e6, #ffe5cc, #ffd1b3); /* Light pastel Naruto-inspired gradient */
+    -fx-padding: 15; /* Adds padding inside the grid */
+    -fx-hgap: 10; /* Horizontal gap between grid cells */
+    -fx-vgap: 10; /* Vertical gap between grid cells */
+    -fx-border-color: #ffae42; /* Subtle orange border */
+    -fx-border-width: 3;
+    -fx-border-radius: 10; /* Rounded corners for a smooth appearance */
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.3), 10, 0.5, 2, 2); /* Soft shadow for depth */
+}
+
+
+.theme2 {
+    -fx-background-color: linear-gradient(to bottom right, #ffb6a0, #ff8c00, #ff4500); /* Vibrant Naruto gradient */
+    -fx-background-radius: 0; /* Full coverage without rounded corners */
+    -fx-border-color: #ffae42; /* Orange border to complement the gradient */
+    -fx-border-width: 4; /* Border thickness */
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.4), 15, 0.5, 3, 3); /* Subtle shadow for depth */
+    -fx-padding: 15; /* Padding inside the container for spacing */
+}

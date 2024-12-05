@@ -1,0 +1,99 @@
+.Button1 {
+    -fx-background-color: linear-gradient(#ff4500, #ff6347);
+    -fx-background-radius: 15;
+    -fx-border-radius: 15;
+    -fx-border-color: #000;
+    -fx-border-width: 2;
+    -fx-text-fill: #fff;
+    -fx-font-family: "Comic Sans MS", "Chakra Petch", sans-serif;
+    -fx-font-weight: bold;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.7), 10, 0.3, 2, 2);
+    -fx-cursor: hand;
+}
+
+.Button1:hover {
+    -fx-background-color: linear-gradient(#ff6347, #ff4500);
+    -fx-border-color: #ffae42;
+}
+
+.Button1:pressed {
+    -fx-background-color: #ff6347;
+    -fx-effect: none;
+}
+
+.searchbar {
+    -fx-background-color: #ffffff; /* White background */
+    -fx-background-radius: 15;
+    -fx-border-radius: 15;
+    -fx-border-color: #ff4500; /* Naruto's orange color */
+    -fx-border-width: 2;
+    -fx-font-family: "Chakra Petch", "Comic Sans MS", sans-serif; /* Naruto-inspired fonts */
+    -fx-font-size: 14px;
+    -fx-text-fill: #000; /* Black text */
+    -fx-padding: 5 10 5 10; /* Inner padding for comfortable text spacing */
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.5), 5, 0.3, 1, 1); /* Shadow effect for depth */
+}
+
+.searchbar:focused {
+    -fx-border-color: #ffae42; /* Highlighted orange when focused */
+    -fx-effect: dropshadow(gaussian, rgba(255, 174, 66, 0.8), 10, 0.5, 2, 2); /* Glow effect */
+}
+
+
+.table1 {
+    -fx-background-color: #fffaf0; /* Light beige background */
+    -fx-border-color: #ff4500; /* Naruto orange border */
+    -fx-border-width: 2;
+    -fx-border-radius: 10;
+    -fx-padding: 10;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.5), 10, 0.3, 2, 2); /* Shadow effect for depth */
+    -fx-table-cell-border-color: #ffae42; /* Light orange for cell borders */
+    -fx-table-header-border-color: #ff4500; /* Bright orange for header borders */
+}
+
+.table1 .column-header {
+    -fx-background-color: linear-gradient(#ff4500, #ff6347); /* Orange gradient for headers */
+    -fx-text-fill: white; /* White text */
+    -fx-font-family: "Chakra Petch", "Comic Sans MS", sans-serif; /* Ninja-inspired font */
+    -fx-font-size: 16px;
+    -fx-font-weight: bold;
+    -fx-alignment: CENTER; /* Center-align header text */
+    -fx-border-color: #000; /* Black border around header */
+    -fx-border-width: 0 0 2px 0; /* Border below the header */
+}
+
+.table1 .cell {
+    -fx-background-color: #fffaf0; /* Light beige background for cells */
+    -fx-text-fill: #000; /* Black text */
+    -fx-font-family: "Chakra Petch", "Comic Sans MS", sans-serif;
+    -fx-font-size: 14px;
+    -fx-padding: 5; /* Padding inside cells */
+}
+
+.table1 .cell:hover {
+    -fx-background-color: #ffefd5; /* Light orange when hovering over cells */
+}
+
+.table1:focused {
+    -fx-border-color: #ffae42; /* Highlighted border when focused */
+}
+
+.Themetitle {
+    -fx-text-fill: #ff4500; /* Naruto's bold orange */
+    -fx-font-family: "Chakra Petch", "Comic Sans MS", sans-serif;
+    -fx-font-weight: bold; /* Bold text */
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.8), 10, 0.5, 2, 2);
+
+    -fx-background-radius: 10;
+    -fx-border-color: #000;
+    -fx-alignment: center;
+    -fx-text-alignment: center;
+}
+
+.theme {
+    -fx-background-color: linear-gradient(to bottom right, #fff4e6, #ffe5cc, #ffd1b3); /* Light pastel Naruto-inspired gradient */
+    -fx-background-radius: 0; /* Full coverage with no rounded corners */
+    -fx-border-color: #ffd9a0; /* Soft orange border for a subtle definition */
+    -fx-border-width: 3;
+    -fx-effect: innershadow(gaussian, rgba(0, 0, 0, 0.2), 10, 0.3, 0, 0); /* Soft inner shadow for gentle depth */
+}
