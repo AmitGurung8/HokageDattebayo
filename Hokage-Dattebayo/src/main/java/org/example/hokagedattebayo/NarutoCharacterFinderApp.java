@@ -3,6 +3,7 @@ package org.example.hokagedattebayo;
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Scene;
+import javafx.scene.image.Image;
 import javafx.stage.Stage;
 import org.example.hokagedattebayo.Controllers.DetailsController;
 
@@ -20,6 +21,7 @@ public class NarutoCharacterFinderApp extends Application {
         NarutoCharacterFinderApp.scene1 = new Scene(loader1.load());
         NarutoCharacterFinderApp.scene2 = new Scene(loader2.load());
         scene1.getStylesheets().add(getClass().getResource("styles2.css").toExternalForm());
+        stage.getIcons().add(new Image(getClass().getResourceAsStream("Img/icon1.jpg")));
         stage.setTitle("Naruto Character Finder");
         stage.setScene(scene1);
         stage.show();
