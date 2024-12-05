@@ -12,6 +12,7 @@ public class NarutoCharacterFinderApp extends Application {
     public static DetailsController controller;
     public static Stage stage;
     @Override
+    //public voids
     public void start(Stage stage) throws Exception {
         NarutoCharacterFinderApp.stage = stage;
          loader1 = new FXMLLoader(getClass().getResource("ff.fxml"));
